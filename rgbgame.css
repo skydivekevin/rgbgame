@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	background-color: #232323;
+	font-family: "Avenir";
+}
+
+h1 {
+	letter-spacing: .5em;
+	font-size: 30px;
+	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+}
+
+h1 span {
+	font-size: 50px;
+}
+
+#titleContainer {
+	padding: 3px;
+	background-color: steelblue;
+	margin: 0;
+	text-align: center;
+}
+
+#colorDisplay {
+	font-size: 200%;
+	color: white;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+	padding-bottom: 10%;
+}
+
+.square {
+	border-radius: 10%;
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+}
+
+span {
+	color: white;
+
+}
+
+#stripe {
+	margin: 0;
+	color: steelblue;
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+#message {
+	font-family: "Avenir";
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: .2em;
+	color: steelblue;
+	display: inline-block;
+	width: 25%;
+}
+
+.selected {
+	background-color: steelblue;
+	color: white;
+}
+
+#reset:hover {
+	color: white;
+	background: steelblue;
+}
+
+#hard:hover {
+	color: white;
+	background: steelblue;
+}
+
+#easy:hover {
+	color: white;
+	background: steelblue;
+}
+
+button {
+	transition: all .5s;
+	color: steelblue;
+	font-weight: 700;
+	border: none;
+	text-transform: uppercase;
+	font-family: "Avenir";
+	letter-spacing: .3em;
+	font-size: 13px;
+	height: 100%;
+	outline: none;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+
+
